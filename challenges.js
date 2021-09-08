@@ -13,9 +13,7 @@ sayHello() //=> Hello!
 -----------------------------------------------------------------*/
 // Your solution for 00-sayHello (example) here:
 
-function sayHello() {
-  return 'Hello!'
-}
+
 
 
 /*-----------------------------------------------------------------
@@ -37,7 +35,6 @@ addOne(-5) //=> -4
 
 
 
-
 /*-----------------------------------------------------------------
 Challenge: 02-addTwoNumbers
 
@@ -48,6 +45,9 @@ Prompt:
 Write a function called addTwoNumbers that accepts two numeric arguments and returns the sum of those two numbers.
 If either argument is not a Number, return the value of NaN.
 
+
+
+
 Examples:
 
 addTwoNumbers(5, 10) //=> 15
@@ -56,6 +56,7 @@ addTwoNumbers(0, 0) //=> 0
 addTwoNumbers('Hello', 5) //=> NaN
 -----------------------------------------------------------------*/
 // Your solution for 02-addTwoNumbers here:
+
 
 
 
@@ -106,7 +107,6 @@ add(7,-12) //=> -5
 
 
 
-
 /*-----------------------------------------------------------------
 Challenge: 05-computeRemainder
 
@@ -126,8 +126,6 @@ computeRemainder(4,0) //=> Infinity
 computeRemainder(10.5, 3) //=> 1.5
 -----------------------------------------------------------------*/
 // Your solution for 05-computeRemainder:
-
-
 
 
 
@@ -151,7 +149,9 @@ range(5,2) //=> "First argument must be less than second"
 // Your solution for 06-range here:
 
 
-
+  
+  
+  
 
 
 /*-----------------------------------------------------------------
@@ -168,7 +168,6 @@ Examples:
 reverseUpcaseString("SEI Rocks!"); //=> "!SKCOR IES" 
 -----------------------------------------------------------------*/
 // Your solution for 07-reverseUpcaseString here:
-
 
 
 
@@ -201,8 +200,10 @@ Difficulty: Basic
 
 Prompt:
 
-- Write a function named charCount that accepts a single string argument and returns an object that represents the count of each character in the string.
-- The returned object should have keys that represent the character with its value set to the how many times the character appears in the string argument.
+- Write a function named charCount that accepts a single string argument
+- and returns an object that represents the count of each character in the string.
+- The returned object should have keys that represent the character with its value 
+- set to the how many times the character appears in the string argument.
 - Upper and lower case characters should be counted separately.
 - Space characters should be count too.
 
@@ -243,6 +244,7 @@ formatWithPadding(1234, '*', 3); //=> "1234"
 
 
 
+
 /*-----------------------------------------------------------------
 Challenge: 11-isPalindrome
 
@@ -263,6 +265,8 @@ isPalindrome('A nut for a jar of tuna'); //=> true
 isPalindrome(''); //=> true
 -----------------------------------------------------------------*/
 // Your solution for 11-isPalindrome here:
+
+
 
 
 
@@ -289,6 +293,7 @@ hammingDistance('!!!!', '****'); //=> 4
 hammingDistance('abc', 'ab'); //=> NaN
 -----------------------------------------------------------------*/
 // Your solution for 12-hammingDistance here:
+
 
 
 
@@ -335,6 +340,8 @@ fromPairs([ ['a', 1], ['b', 2], ['c', 3] ]) //=> { a: 1, b: 2, c: 3 }
 fromPairs([ ['name', 'Sam"], ['age', 24], ['name', 'Sally'] ]) //=> { name: "Sally", age: 24 }
 -----------------------------------------------------------------*/
 // Your solution for 14-fromPairs here:
+
+
 
 
 
@@ -397,6 +404,9 @@ findHighestPriced([
 // Your solution for 16-findHighestPriced here:
 
 
+  
+
+
 
 
 
@@ -448,7 +458,7 @@ The goal is of this challenge is to write a function that performs the functiona
 Examples:
 
 reduceArray( [1, 2, 3], function(acc, n) {
-  return acc + n;
+  return acc + n;fun
 }, 0);
 //=> 6
 
@@ -464,7 +474,6 @@ reduceArray( ['Yes', 'No', 'Yes', 'Maybe'], function(acc, v) {
 //=> {"Yes": 2, "No": 1, "Maybe": 1}
 -----------------------------------------------------------------*/
 // Your solution for 18-reduceArray here:
-
 
 
 
@@ -521,7 +530,7 @@ isPrime(200) //=> false
 // Your solution for 20-isPrime here:
 
 
-
+  
 
 
 /*-----------------------------------------------------------------
@@ -577,6 +586,8 @@ intersection([1, 'a', true, 1, 1], [true, 1, 'b', 1]) //=> [1, true, 1]
 
 
 
+
+
 /*-----------------------------------------------------------------
 Challenge: 23-balancedBrackets
 
@@ -602,6 +613,7 @@ balancedBrackets( '[({}[])]' ) // => true
 
 
 
+  
 
 /*-----------------------------------------------------------------
 Challenge: 24-isWinningTicket
@@ -658,7 +670,6 @@ getNumForIP( '192.156.99.15' ) // => 3231474447
 getNumForIP( '10.0.0.1' ) // => 167772161
 -----------------------------------------------------------------*/
 // Your solution for 25-getNumForIP here:
-
 
 
 
@@ -807,5 +818,4 @@ totalTaskTime( [2, 2, 3, 3, 4, 4], 2 ) //=> 9
 totalTaskTime( [5, 2, 6, 8, 7, 2], 3 ) // => 12
 -----------------------------------------------------------------*/
 // Your solution for 30- here:
-
 
